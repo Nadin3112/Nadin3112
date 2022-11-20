@@ -1,0 +1,142 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    width: 1920px;
+    height: 1080px;
+    background-color: #406343;
+    background-image: url(img/background\ .jpg);
+    background-position: center;
+    font-family: 'Poppins', sans-serif; 
+    position: relative;  
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 44px;
+    padding-top: 32px;
+    padding-bottom: 316px;
+    padding-right: 48px;
+}
+.navigation-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navigation-item {
+    margin-right: 45px;
+}
+.navigation-link {
+   font-size: 25px;
+   line-height: 38px;
+   text-align: left;
+   vertical-align: top;
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 500;
+   transition: color 0.15s ease-in;
+}
+.navigation-link:focus, .navigation-link:hover {
+    color: #406343;
+}
+.navigation-item:last-child {
+    margin-right: 0;
+}
+.navigation-link-current {
+    border-bottom: 10px solid #406343;
+    border-radius: 2px;
+} 
+.controls {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.controls-item {
+    margin-right: 50px;   
+}
+.controls-item:last-child {
+    margin-right: 0;
+}
+.controls-button {
+    background-color: transparent;
+    border: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .promo-lion {
+    padding: 0;
+    margin: 0;
+  }
+  .text-lion {
+    position: absolute;
+    top: 408px;
+    left: 449px;
+    transition: transform 0.3s ease-in;
+  }
+  .text-lion:hover {
+transform: scale(0.95);
+  }
+  .promo-desc {
+    position: absolute;
+    top: 675px;
+    left: 1344px;
+  }
+  .promo-desc h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 18px;
+  }
+  .promo-desc p {
+color: rgba(179, 179, 179, 0.8);
+width: 429px;
+height: 120px;
+font-weight: 400px;
+text-align: left;
+margin-top: 0;
+  }
+.promo-mouse {
+    position: absolute;
+    left: 900px;
+    bottom: 288px;
+}
+ .button {
+    font-size: 25px;
+    line-height: 38px;
+font-weight: 700;
+border: none;
+border-radius: 20px;
+color: #ffffff;
+position: absolute;
+bottom: 189px;
+left: 735px;
+background-color: #406343;
+width: 380px;
+height: 80px;
+display: flex;
+align-items: center;
+gap: 0 20px;
+padding: 22px 47px 20px;
+box-shadow:-25px, 0px 50px rgba(0, 0, 0, 0.1), 25px, -25px 50px rgba(0, 0, 0, 0.1);
+ }
